@@ -1,0 +1,5 @@
+Evelyn_ModToggleExtra_Settings_HideDep=        Hide dependencies in Mod Toggle menu
+Evelyn_ModToggleExtra_Settings_DepPath=        Dependency file path
+Evelyn_ModToggleExtra_Settings_HideWhitelist=  Hide whitelisted mods in Mod Toggle menu
+Evelyn_ModToggleExtra_Settings_AutoDep=        Install Dependencies marks as dependency
+Evelyn_ModToggleExtra_Settings_ChangeDep=      Toggle Dependencies
