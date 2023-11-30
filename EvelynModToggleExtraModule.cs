@@ -39,6 +39,7 @@ namespace Celeste.Mod.EvelynModToggleExtra
         }
 
         public static void LoadDependencyList() {
+            if (Settings.DepPath == null) Settings.DepPath = "dependencies.txt";
             DependencyPath = Path.Combine(Everest.Loader.PathMods, Settings.DepPath);
             Dependencies = new HashSet<string>();
             foreach (string line in File.ReadAllLines(DependencyPath)) {
